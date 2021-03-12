@@ -1,0 +1,44 @@
+:root {
+    --my-boder-color: #45abbd;
+}
+
+body {
+    font-size: larger;
+    background-color: black;
+    font-family: 'Blinker', sans-serif;
+    color: wheat;
+    display: flex; 
+    justify-content: center; 
+    align-items: center !important; 
+    height: 100vh;    
+}
+
+table body{
+    color: inherit;
+}
+
+.imagen {
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 10px;
+}
+
+td {
+    background-color: black;
+}
+
+.imagen:hover, td:hover {
+    transform: scale(1.25);
+    transition: transform .2s;
+}
+
+
+.my-border {
+    border-color: var(--my-boder-color) !important;
+    border-width: 3px; 
+    border: solid;
+    padding-top: 0cm;
+    border-radius: 10px;
+}
+
